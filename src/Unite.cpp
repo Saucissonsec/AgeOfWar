@@ -1,6 +1,6 @@
 #include "Unite.h"
 
-Unite::Unite()
+Unite::Unite(std::string name) : ObjetTerrain(name)
 {
     //ctor
 }

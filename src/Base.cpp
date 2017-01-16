@@ -1,6 +1,6 @@
 #include "Base.h"
 
-Base::Base()
+Base::Base(std::string name) : ObjetTerrain(name)
 {
     //ctor
 }

@@ -1,6 +1,6 @@
 #include "SuperSoldat.h"
 
-SuperSoldat::SuperSoldat()
+SuperSoldat::SuperSoldat() : Unite("Super Soldat")
 {
     //ctor
 }

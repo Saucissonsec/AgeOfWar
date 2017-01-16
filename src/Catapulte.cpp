@@ -1,6 +1,6 @@
 #include "Catapulte.h"
 
-Catapulte::Catapulte()
+Catapulte::Catapulte() : Unite("Catapulte")
 {
     //ctor
 }

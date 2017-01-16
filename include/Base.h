@@ -7,7 +7,7 @@
 class Base : public ObjetTerrain
 {
     public:
-        Base();
+        Base(std::string name);
         virtual ~Base();
 
     protected:

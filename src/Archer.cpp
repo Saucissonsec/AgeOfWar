@@ -1,6 +1,6 @@
 #include "Archer.h"
 
-Archer::Archer()
+Archer::Archer() : Unite("Archer")
 {
     //ctor
 }
@@ -9,3 +9,4 @@ Archer::~Archer()
 {
     //dtor
 }
+

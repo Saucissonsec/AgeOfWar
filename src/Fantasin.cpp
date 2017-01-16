@@ -1,6 +1,6 @@
 #include "Fantasin.h"
 
-Fantasin::Fantasin()
+Fantasin::Fantasin() : Unite("Fantassin")
 {
     //ctor
 }
