@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1485030977 source:c:\users\pierre\documents\info\c++\project\main.cpp
+	<iostream>
+	"Unite.h"
+	"ObjetTerrain.h"
+	"Fantasin.h"
+
+1485016645 source:c:\users\pierre\documents\info\c++\project\src\base.cpp
+	"Base.h"
+
+1484597858 c:\users\pierre\documents\info\c++\project\include\base.h
+	<ObjetTerrain.h>
+
+1485016686 c:\users\pierre\documents\info\c++\project\include\objetterrain.h
+	<string>
+	<iostream>
+
+1483692203 source:c:\users\pierre\documents\info\c++\project\src\case.cpp
+	"Case.h"
+
+1483692203 c:\users\pierre\documents\info\c++\project\include\case.h
+
+1485031473 source:c:\users\pierre\documents\info\c++\project\src\catapulte.cpp
+	"Catapulte.h"
+
+1483692436 c:\users\pierre\documents\info\c++\project\include\catapulte.h
+	<Unite.h>
+
+1485031269 c:\users\pierre\documents\info\c++\project\include\unite.h
+	<ObjetTerrain.h>
+
+1485031298 source:c:\users\pierre\documents\info\c++\project\src\fantasin.cpp
+	"Fantasin.h"
+
+1483692368 c:\users\pierre\documents\info\c++\project\include\fantasin.h
+	<Unite.h>
+
+1483695097 source:c:\users\pierre\documents\info\c++\project\src\jeu.cpp
+	"Jeu.h"
+
+1483693145 c:\users\pierre\documents\info\c++\project\include\jeu.h
+
+1483692541 source:c:\users\pierre\documents\info\c++\project\src\joueur.cpp
+	"Joueur.h"
+
+1483692540 c:\users\pierre\documents\info\c++\project\include\joueur.h
+
+1483692596 source:c:\users\pierre\documents\info\c++\project\src\joueurh.cpp
+	"JoueurH.h"
+
+1483692596 c:\users\pierre\documents\info\c++\project\include\joueurh.h
+	<Joueur.h>
+
+1483692569 source:c:\users\pierre\documents\info\c++\project\src\joueuria.cpp
+	"JoueurIA.h"
+
+1483692569 c:\users\pierre\documents\info\c++\project\include\joueuria.h
+	<Joueur.h>
+
+1485030819 source:c:\users\pierre\documents\info\c++\project\src\objetterrain.cpp
+	"ObjetTerrain.h"
+
+1483692158 source:c:\users\pierre\documents\info\c++\project\src\playingarea.cpp
+	"PlayingArea.h"
+
+1483692157 c:\users\pierre\documents\info\c++\project\include\playingarea.h
+
+1485016964 source:c:\users\pierre\documents\info\c++\project\src\supersoldat.cpp
+	"SuperSoldat.h"
+
+1483692517 c:\users\pierre\documents\info\c++\project\include\supersoldat.h
+	<Unite.h>
+
+1485031269 source:c:\users\pierre\documents\info\c++\project\src\unite.cpp
+	"Unite.h"
+
+1485031473 source:c:\users\pierre\documents\info\c++\project\src\archer.cpp
+	"Archer.h"
+
+1483692383 c:\users\pierre\documents\info\c++\project\include\archer.h
+	<Unite.h>
+

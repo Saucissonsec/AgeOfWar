@@ -1,8 +1,8 @@
 #include "ObjetTerrain.h"
 
-ObjetTerrain::ObjetTerrain(std::string name)
+ObjetTerrain::ObjetTerrain(std::string name, int HP) : m_name(name), m_HP(HP)
 {
-    m_name = name;
+
 }
 
 ObjetTerrain::~ObjetTerrain()
@@ -10,17 +10,18 @@ ObjetTerrain::~ObjetTerrain()
     //dtor
 }
 
-int ObjetTerrain::getHP()
-{
-    return m_HP;
-}
-
-void ObjetTerrain::setHP(int val)
-{
-    m_HP = val;
-}
-
 void ObjetTerrain::printInfos()
 {
-    std::cout<<m_name<<std::endl;
+    std::cout<<m_name<<"\n HP :  " << m_HP
+    << "\n Position : " << m_pos;
+}
+
+std::ostream& operator <<(std::ostream& os, const ObjetTerrain& obj)
+{
+    os<< obj.m_name
+    << "\n HP :  " << obj.m_HP
+    << "\n Position : " << obj.m_pos
+    << std::endl;
+
+    return os;
 }

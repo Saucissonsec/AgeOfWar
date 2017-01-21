@@ -1,13 +1,13 @@
 #include <iostream>
 #include "Unite.h"
 #include "ObjetTerrain.h"
-#include "Archer.h"
+#include "Fantasin.h"
 
 using namespace std;
 
 int main()
 {
-    Archer* arc =  new Archer();
+    Fantasin* arc =  new Fantasin();
     arc->printInfos();
     return 0;
 }
