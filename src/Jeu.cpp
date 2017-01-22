@@ -2,10 +2,13 @@
 
 Jeu::Jeu()
 {
-    //ctor
+    J1 = Joueur(true);
+    J2 = Joueur(false);
+    t = PlayingArea(11);
 }
 
 Jeu::~Jeu()
 {
     //dtor
 }
+

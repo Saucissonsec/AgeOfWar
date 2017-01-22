@@ -80,3 +80,186 @@
 1483692383 c:\users\pierre\documents\info\c++\project\include\archer.h
 	<Unite.h>
 
+1485003332 source:d:\c\c++\aow\v2\ageofwar-master\main.cpp
+	<iostream>
+	"Unite.h"
+	"ObjetTerrain.h"
+	"Fantasin.h"
+
+1485049219 d:\c\c++\aow\v2\ageofwar-master\include\unite.h
+	<ObjetTerrain.h>
+
+1485003332 d:\c\c++\aow\v2\ageofwar-master\include\objetterrain.h
+	<string>
+	<iostream>
+
+1485003332 d:\c\c++\aow\v2\ageofwar-master\include\fantasin.h
+	<Unite.h>
+
+1485003332 source:d:\c\c++\aow\v2\ageofwar-master\src\archer.cpp
+	"Archer.h"
+
+1485003332 d:\c\c++\aow\v2\ageofwar-master\include\archer.h
+	<Unite.h>
+
+1485003332 source:d:\c\c++\aow\v2\ageofwar-master\src\base.cpp
+	"Base.h"
+
+1485003332 d:\c\c++\aow\v2\ageofwar-master\include\base.h
+	<ObjetTerrain.h>
+
+1485049433 source:d:\c\c++\aow\v2\ageofwar-master\src\case.cpp
+	"Case.h"
+
+1485055881 d:\c\c++\aow\v2\ageofwar-master\include\case.h
+	"ObjetTerrain.h"
+
+1485003332 source:d:\c\c++\aow\v2\ageofwar-master\src\catapulte.cpp
+	"Catapulte.h"
+
+1485003332 d:\c\c++\aow\v2\ageofwar-master\include\catapulte.h
+	<Unite.h>
+
+1485003332 source:d:\c\c++\aow\v2\ageofwar-master\src\fantasin.cpp
+	"Fantasin.h"
+
+1485053781 source:d:\c\c++\aow\v2\ageofwar-master\src\jeu.cpp
+	"Jeu.h"
+
+1485049870 d:\c\c++\aow\v2\ageofwar-master\include\jeu.h
+	"Joueur.h"
+	"PlayingArea.h"
+
+1485048628 source:d:\c\c++\aow\v2\ageofwar-master\src\joueur.cpp
+	"Joueur.h"
+
+1485052740 d:\c\c++\aow\v2\ageofwar-master\include\joueur.h
+	<vector>
+	"Unite.h"
+	"Base.h"
+
+1485003332 source:d:\c\c++\aow\v2\ageofwar-master\src\joueurh.cpp
+	"JoueurH.h"
+
+1485003332 d:\c\c++\aow\v2\ageofwar-master\include\joueurh.h
+	<Joueur.h>
+
+1485003332 source:d:\c\c++\aow\v2\ageofwar-master\src\joueuria.cpp
+	"JoueurIA.h"
+
+1485003332 d:\c\c++\aow\v2\ageofwar-master\include\joueuria.h
+	<Joueur.h>
+
+1485003332 source:d:\c\c++\aow\v2\ageofwar-master\src\objetterrain.cpp
+	"ObjetTerrain.h"
+
+1485054309 source:d:\c\c++\aow\v2\ageofwar-master\src\playingarea.cpp
+	"PlayingArea.h"
+	<vector>
+	<malloc.h>
+
+1485054288 d:\c\c++\aow\v2\ageofwar-master\include\playingarea.h
+	"Case.h"
+	<vector>
+
+1485003332 source:d:\c\c++\aow\v2\ageofwar-master\src\supersoldat.cpp
+	"SuperSoldat.h"
+
+1485003332 d:\c\c++\aow\v2\ageofwar-master\include\supersoldat.h
+	<Unite.h>
+
+1485003332 source:d:\c\c++\aow\v2\ageofwar-master\src\unite.cpp
+	"Unite.h"
+
+1485088578 source:c:\users\pierre\documents\info\ageofwar-master\main.cpp
+	<iostream>
+	"Unite.h"
+	"ObjetTerrain.h"
+	"Jeu.h"
+
+1485049219 c:\users\pierre\documents\info\ageofwar-master\include\unite.h
+	<ObjetTerrain.h>
+
+1485089511 c:\users\pierre\documents\info\ageofwar-master\include\objetterrain.h
+	<string>
+	<iostream>
+
+1485003332 c:\users\pierre\documents\info\ageofwar-master\include\fantasin.h
+	<Unite.h>
+
+1485003332 source:c:\users\pierre\documents\info\ageofwar-master\src\archer.cpp
+	"Archer.h"
+
+1485003332 c:\users\pierre\documents\info\ageofwar-master\include\archer.h
+	<Unite.h>
+
+1485003332 source:c:\users\pierre\documents\info\ageofwar-master\src\base.cpp
+	"Base.h"
+
+1485003332 c:\users\pierre\documents\info\ageofwar-master\include\base.h
+	<ObjetTerrain.h>
+
+1485087934 source:c:\users\pierre\documents\info\ageofwar-master\src\case.cpp
+	"Case.h"
+	"ObjetTerrain.h"
+
+1485089780 c:\users\pierre\documents\info\ageofwar-master\include\case.h
+	"ObjetTerrain.h"
+
+1485003332 source:c:\users\pierre\documents\info\ageofwar-master\src\catapulte.cpp
+	"Catapulte.h"
+
+1485003332 c:\users\pierre\documents\info\ageofwar-master\include\catapulte.h
+	<Unite.h>
+
+1485003332 source:c:\users\pierre\documents\info\ageofwar-master\src\fantasin.cpp
+	"Fantasin.h"
+
+1485082087 source:c:\users\pierre\documents\info\ageofwar-master\src\jeu.cpp
+	"Jeu.h"
+
+1485049870 c:\users\pierre\documents\info\ageofwar-master\include\jeu.h
+	"Joueur.h"
+	"PlayingArea.h"
+
+1485082061 c:\users\pierre\documents\info\ageofwar-master\include\joueur.h
+	<vector>
+	"Unite.h"
+	"Base.h"
+
+1485094884 c:\users\pierre\documents\info\ageofwar-master\include\playingarea.h
+	"Case.h"
+	<vector>
+
+1485003332 source:c:\users\pierre\documents\info\ageofwar-master\src\joueurh.cpp
+	"JoueurH.h"
+
+1485003332 c:\users\pierre\documents\info\ageofwar-master\include\joueurh.h
+	<Joueur.h>
+
+1485003332 source:c:\users\pierre\documents\info\ageofwar-master\src\joueuria.cpp
+	"JoueurIA.h"
+
+1485003332 c:\users\pierre\documents\info\ageofwar-master\include\joueuria.h
+	<Joueur.h>
+
+1485003332 source:c:\users\pierre\documents\info\ageofwar-master\src\objetterrain.cpp
+	"ObjetTerrain.h"
+
+1485054309 source:c:\users\pierre\documents\info\ageofwar-master\src\playingarea.cpp
+	"PlayingArea.h"
+	<vector>
+	<malloc.h>
+
+1485003332 source:c:\users\pierre\documents\info\ageofwar-master\src\supersoldat.cpp
+	"SuperSoldat.h"
+
+1485003332 c:\users\pierre\documents\info\ageofwar-master\include\supersoldat.h
+	<Unite.h>
+
+1485003332 source:c:\users\pierre\documents\info\ageofwar-master\src\unite.cpp
+	"Unite.h"
+
+1485094668 source:c:\users\pierre\documents\info\ageofwar-master\src\joueur.cpp
+	"Joueur.h"
+

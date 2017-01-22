@@ -1,11 +1,24 @@
 #include "Joueur.h"
 
-Joueur::Joueur()
+Joueur::Joueur(bool g)
 {
-    //ctor
+    gauche = g;
+    if(g)
+    {
+        base = new Base("Base J1");
+    }
+    else
+    {
+        base = new Base("Base J2");
+    }
 }
 
 Joueur::~Joueur()
 {
-    //dtor
+
+}
+
+void Joueur::getGold(int gold)
+{
+    argent += gold;
 }

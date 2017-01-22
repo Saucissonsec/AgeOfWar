@@ -2,6 +2,7 @@
 #define OBJETTERRAIN_H
 #include <string>
 #include <iostream>
+class Case;
 
 
 class ObjetTerrain
@@ -12,7 +13,9 @@ class ObjetTerrain
 
         int getHP(){return m_HP;};
 
-        void setHP(int val){m_HP = val;}; //Lorssque l'unité prend des dommages ou se fait soigner
+        void setHP(int val){m_HP = val;}; //Lorsque l'unité prend des dommages ou se fait soigner
+
+        void setPos(Case* pos){m_pos = pos;};
 
         void printInfos();
 
@@ -23,7 +26,7 @@ class ObjetTerrain
     private:
         int m_HP;   //santé de l'unité
 
-        int m_pos; //position sur le plateau
+        Case* m_pos; //position sur le plateau
 
         std::string m_name;
         int ID; //besoin pour identifier des objets de même nom?

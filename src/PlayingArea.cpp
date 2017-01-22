@@ -1,11 +1,23 @@
 #include "PlayingArea.h"
+#include <vector>
+#include <malloc.h>
 
-PlayingArea::PlayingArea()
+PlayingArea::PlayingArea(int taille)
 {
-    //ctor
+    for(int i = 0; i <= taille; i++)
+    {
+        Case* c = new Case(NULL,i);
+        terrain.push_back(c);
+    }
 }
 
 PlayingArea::~PlayingArea()
 {
-    //dtor
+
 }
+
+Case* PlayingArea::getTerrain(int pos)
+{
+    return terrain.at(pos);
+}
+
